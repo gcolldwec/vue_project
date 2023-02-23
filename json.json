@@ -1,0 +1,564 @@
+
+[
+  {
+    "type": "module"
+  },
+  {
+    "index": 0,
+    "product": "Clayton",
+    "hasStock": true,
+    "isActive": false,
+    "price": 115.01,
+    "picture": "http://placehold.it/32x32",
+    "stock": 12,
+    "description": "Occaecat consectetur dolor labore proident id commodo sint esse eu veniam ea do. Lorem elit exercitation exercitation velit ea culpa adipisicing irure ex aliqua exercitation. Lorem dolore id proident anim cillum id nostrud officia ipsum. Adipisicing nostrud pariatur irure eiusmod cupidatat. Est laborum proident labore reprehenderit sint quis aliqua magna sint Lorem.\r\n",
+    "registered": "2018-05-24T05:49:48 -02:00",
+    "tags": [
+      "aliquip",
+      "duis",
+      "et",
+      "occaecat",
+      "commodo"
+    ]
+  },
+  {
+    "index": 1,
+    "product": "Espinoza",
+    "hasStock": false,
+    "isActive": true,
+    "price": 207.74,
+    "picture": "http://placehold.it/32x32",
+    "stock": 5,
+    "description": "Esse et occaecat dolor Lorem ut esse excepteur ea ex minim proident. Nostrud minim officia proident minim Lorem id cupidatat nulla veniam ut. Enim elit veniam fugiat cillum ullamco tempor mollit. Aute consectetur esse non veniam commodo. Ipsum incididunt ipsum laboris duis excepteur do excepteur mollit deserunt veniam exercitation. Incididunt consequat irure ut minim nisi cupidatat pariatur laboris occaecat eiusmod culpa ex veniam.\r\n",
+    "registered": "2022-08-18T08:20:20 -02:00",
+    "tags": [
+      "dolor",
+      "adipisicing",
+      "non",
+      "reprehenderit",
+      "sint"
+    ]
+  },
+  {
+    "index": 2,
+    "product": "Brittany",
+    "hasStock": true,
+    "isActive": false,
+    "price": 85.19,
+    "picture": "http://placehold.it/32x32",
+    "stock": 9,
+    "description": "Elit laboris consequat labore consectetur. Consequat cupidatat Lorem amet laborum ullamco minim reprehenderit aute nulla. Sint aute culpa aliqua ad dolore ad deserunt irure pariatur. Aute culpa excepteur ut voluptate occaecat excepteur velit nisi cillum qui pariatur nulla proident. Excepteur nulla quis laboris ex pariatur elit.\r\n",
+    "registered": "2019-06-22T07:13:43 -02:00",
+    "tags": [
+      "adipisicing",
+      "enim",
+      "tempor",
+      "dolore",
+      "incididunt"
+    ]
+  },
+  {
+    "index": 3,
+    "product": "Vinson",
+    "hasStock": false,
+    "isActive": false,
+    "price": 335.81,
+    "picture": "http://placehold.it/32x32",
+    "stock": 24,
+    "description": "Ut incididunt nostrud enim id. Et veniam magna officia incididunt ad voluptate quis. Occaecat ipsum magna eu est et minim exercitation cillum elit minim. Tempor voluptate veniam ex Lorem adipisicing ad nulla tempor voluptate. Dolore excepteur deserunt eu et dolor incididunt amet enim amet non dolore consequat minim.\r\n",
+    "registered": "2021-11-24T10:48:28 -01:00",
+    "tags": [
+      "minim",
+      "nulla",
+      "proident",
+      "ea",
+      "sunt"
+    ]
+  },
+  {
+    "index": 4,
+    "product": "Maxwell",
+    "hasStock": false,
+    "isActive": false,
+    "price": 13.88,
+    "picture": "http://placehold.it/32x32",
+    "stock": 5,
+    "description": "Do id enim labore mollit. Ea magna ullamco id ipsum cupidatat tempor magna. Pariatur minim do dolore velit tempor cupidatat in eu elit aliquip. Et fugiat officia do officia ex cillum ad velit occaecat enim dolor veniam aute. Sit in reprehenderit laborum sunt mollit consectetur aliquip ut ad pariatur mollit laborum elit. Sint dolor magna excepteur consequat dolor quis.\r\n",
+    "registered": "2019-07-04T11:26:00 -02:00",
+    "tags": [
+      "ea",
+      "proident",
+      "veniam",
+      "aliquip",
+      "duis"
+    ]
+  },
+  {
+    "index": 5,
+    "product": "Bartlett",
+    "hasStock": true,
+    "isActive": false,
+    "price": 81.75,
+    "picture": "http://placehold.it/32x32",
+    "stock": 21,
+    "description": "Adipisicing anim nulla amet aute consectetur nisi eiusmod dolor proident. Consectetur ullamco reprehenderit aliquip sint amet do in cillum consequat aliquip culpa. Sint ut reprehenderit nisi occaecat mollit consectetur. Do tempor officia velit amet nulla amet aliquip laboris.\r\n",
+    "registered": "2021-02-22T06:58:16 -01:00",
+    "tags": [
+      "officia",
+      "fugiat",
+      "reprehenderit",
+      "laboris",
+      "nisi"
+    ]
+  },
+  {
+    "index": 6,
+    "product": "Stacey",
+    "hasStock": true,
+    "isActive": false,
+    "price": 38.57,
+    "picture": "http://placehold.it/32x32",
+    "stock": 20,
+    "description": "Excepteur eu sit enim culpa dolor anim consequat non in velit esse nulla mollit. Consectetur cillum id excepteur dolore. Lorem quis voluptate proident sit. Sit id deserunt ipsum pariatur voluptate pariatur dolor pariatur.\r\n",
+    "registered": "2017-12-25T05:19:21 -01:00",
+    "tags": [
+      "enim",
+      "ex",
+      "in",
+      "incididunt",
+      "officia"
+    ]
+  },
+  {
+    "index": 7,
+    "product": "Rodgers",
+    "hasStock": false,
+    "isActive": true,
+    "price": 143.75,
+    "picture": "http://placehold.it/32x32",
+    "stock": 13,
+    "description": "Nostrud magna sunt dolor occaecat consectetur esse incididunt magna. Voluptate consequat fugiat aliqua dolore incididunt commodo amet dolore magna est. Culpa nostrud mollit dolor amet nostrud ipsum nostrud reprehenderit deserunt incididunt in sit sint laborum.\r\n",
+    "registered": "2019-02-24T09:25:10 -01:00",
+    "tags": [
+      "ut",
+      "ut",
+      "anim",
+      "sit",
+      "labore"
+    ]
+  },
+  {
+    "index": 8,
+    "product": "Janelle",
+    "hasStock": false,
+    "isActive": true,
+    "price": 69.69,
+    "picture": "http://placehold.it/32x32",
+    "stock": 10,
+    "description": "Eu culpa ut ea tempor laborum ad. Magna voluptate sit anim ut proident eu qui ipsum consequat. Cillum est est laboris ea eu adipisicing nostrud deserunt. Proident cillum enim dolore sint ea sit velit irure quis velit proident veniam adipisicing sunt. Anim laborum consequat consectetur commodo tempor non ut. Magna labore nisi cillum aute cupidatat qui aliquip nisi Lorem.\r\n",
+    "registered": "2022-06-02T01:23:50 -02:00",
+    "tags": [
+      "officia",
+      "mollit",
+      "et",
+      "velit",
+      "ullamco"
+    ]
+  },
+  {
+    "index": 9,
+    "product": "Terri",
+    "hasStock": true,
+    "isActive": false,
+    "price": 308.18,
+    "picture": "http://placehold.it/32x32",
+    "stock": 8,
+    "description": "Dolore aliqua in culpa aliqua quis excepteur ullamco cupidatat incididunt irure cillum exercitation eu nostrud. Est eu esse ullamco velit id velit reprehenderit irure deserunt sint Lorem. Tempor exercitation cupidatat exercitation id ipsum ullamco id ut consequat amet ea nostrud consectetur dolor. Fugiat id dolor fugiat irure adipisicing deserunt culpa dolor qui enim irure nulla fugiat. Enim magna quis exercitation nostrud eiusmod occaecat magna cillum laborum labore eiusmod.\r\n",
+    "registered": "2015-03-01T10:21:42 -01:00",
+    "tags": [
+      "laborum",
+      "aliquip",
+      "aute",
+      "magna",
+      "esse"
+    ]
+  },
+  {
+    "index": 10,
+    "product": "Dunlap",
+    "hasStock": true,
+    "isActive": false,
+    "price": 80.61,
+    "picture": "http://placehold.it/32x32",
+    "stock": 8,
+    "description": "Culpa ipsum labore eiusmod magna. Fugiat laboris enim duis qui tempor esse commodo culpa sunt sint. Elit magna dolor exercitation duis. Lorem irure excepteur proident cillum pariatur culpa excepteur ullamco cillum eiusmod. Do mollit qui anim tempor do commodo consequat magna aute consectetur tempor consequat. Fugiat tempor voluptate pariatur nisi consectetur incididunt Lorem nulla veniam.\r\n",
+    "registered": "2021-02-26T11:24:50 -01:00",
+    "tags": [
+      "dolore",
+      "fugiat",
+      "aliqua",
+      "nisi",
+      "labore"
+    ]
+  },
+  {
+    "index": 11,
+    "product": "Jennie",
+    "hasStock": false,
+    "isActive": false,
+    "price": 393.18,
+    "picture": "http://placehold.it/32x32",
+    "stock": 16,
+    "description": "Laboris do et tempor irure fugiat duis. Esse veniam eiusmod sit Lorem minim ullamco minim nisi. Proident velit elit velit occaecat eu eiusmod irure ullamco est anim. Laboris excepteur fugiat sint pariatur excepteur ullamco sint laborum magna consectetur et sint.\r\n",
+    "registered": "2014-02-08T05:41:51 -01:00",
+    "tags": [
+      "nulla",
+      "ipsum",
+      "nisi",
+      "fugiat",
+      "aliqua"
+    ]
+  },
+  {
+    "index": 12,
+    "product": "Carmella",
+    "hasStock": true,
+    "isActive": true,
+    "price": 31.98,
+    "picture": "bici1.jpg",
+    "stock": 11,
+    "description": "Labore ex elit deserunt commodo ad eiusmod occaecat veniam in dolor consequat dolore sit nostrud. Aliquip aliqua id Lorem labore non exercitation id nisi eu pariatur non. Non elit non ex laboris dolore labore eu cillum in officia elit veniam Lorem. Officia pariatur dolor culpa incididunt voluptate.\r\n",
+    "registered": "2017-05-11T02:09:49 -02:00",
+    "tags": [
+      "do",
+      "enim",
+      "enim",
+      "consectetur",
+      "irure"
+    ]
+  },
+  {
+    "index": 13,
+    "product": "Helen",
+    "hasStock": false,
+    "isActive": false,
+    "price": 121.18,
+    "picture": "http://placehold.it/32x32",
+    "stock": 11,
+    "description": "Anim aute ullamco deserunt id. Esse adipisicing officia incididunt veniam esse id sit ex culpa non adipisicing minim minim. Id do minim et dolore. Do minim voluptate laboris incididunt ullamco commodo. Ex velit adipisicing consectetur esse nostrud enim nisi dolor Lorem eu pariatur irure quis. Ullamco duis esse ex eu fugiat irure commodo. Aute ipsum Lorem magna magna quis ea ut non minim.\r\n",
+    "registered": "2021-10-21T07:00:57 -02:00",
+    "tags": [
+      "qui",
+      "dolore",
+      "reprehenderit",
+      "ut",
+      "enim"
+    ]
+  },
+  {
+    "index": 14,
+    "product": "Nelson",
+    "hasStock": true,
+    "isActive": true,
+    "price": 353.03,
+    "picture": "bici2.jpg",
+    "stock": 1,
+    "description": "Aliqua do cillum excepteur aliqua ipsum sunt ad aliquip incididunt. Nulla ullamco ex culpa pariatur labore consectetur dolore in consequat. Exercitation mollit cillum nostrud cupidatat quis non qui. Magna culpa mollit culpa cupidatat in occaecat eiusmod commodo. Sunt commodo dolor ut elit ex.\r\n",
+    "registered": "2022-03-15T10:07:03 -01:00",
+    "tags": [
+      "labore",
+      "exercitation",
+      "laborum",
+      "officia",
+      "sit"
+    ]
+  },
+  {
+    "index": 15,
+    "product": "Nikki",
+    "hasStock": false,
+    "isActive": false,
+    "price": 32.13,
+    "picture": "http://placehold.it/32x32",
+    "stock": 8,
+    "description": "Enim consequat irure in officia. Ad incididunt exercitation fugiat ipsum id elit aliqua id duis proident. Lorem anim tempor reprehenderit veniam est do amet ut. Velit quis eu eu deserunt aliqua eiusmod aliqua anim incididunt aute consectetur labore proident officia.\r\n",
+    "registered": "2016-06-26T12:58:40 -02:00",
+    "tags": [
+      "eu",
+      "eu",
+      "amet",
+      "aute",
+      "aliquip"
+    ]
+  },
+  {
+    "index": 16,
+    "product": "Belinda",
+    "hasStock": true,
+    "isActive": false,
+    "price": 134.09,
+    "picture": "http://placehold.it/32x32",
+    "stock": 21,
+    "description": "Non adipisicing esse fugiat nostrud qui elit irure. Magna velit ut incididunt non velit excepteur et laboris aliquip ad. Ad veniam est labore tempor eu quis id. Incididunt in qui consequat sit excepteur id. Dolore exercitation mollit fugiat sunt velit nulla anim labore labore id. Duis est nulla laborum sunt esse est.\r\n",
+    "registered": "2014-01-26T12:14:18 -01:00",
+    "tags": [
+      "anim",
+      "velit",
+      "est",
+      "in",
+      "enim"
+    ]
+  },
+  {
+    "index": 17,
+    "product": "Isabel",
+    "hasStock": true,
+    "isActive": true,
+    "price": 87.58,
+    "picture": "bici3.jpg",
+    "stock": 11,
+    "description": "Sint excepteur ex Lorem eu laboris ex id officia elit labore reprehenderit sit fugiat labore. Incididunt pariatur amet esse consectetur consectetur sint est irure nostrud aute. Voluptate laboris exercitation proident laborum qui Lorem anim laborum commodo dolore. Pariatur incididunt excepteur aute Lorem fugiat veniam adipisicing consequat proident labore irure aliquip cupidatat. Nulla cillum proident elit exercitation culpa nostrud nulla laboris deserunt do ut.\r\n",
+    "registered": "2020-09-30T07:26:37 -02:00",
+    "tags": [
+      "nulla",
+      "dolor",
+      "Lorem",
+      "officia",
+      "laborum"
+    ]
+  },
+  {
+    "index": 18,
+    "product": "Calhoun",
+    "hasStock": true,
+    "isActive": false,
+    "price": 390.75,
+    "picture": "http://placehold.it/32x32",
+    "stock": 7,
+    "description": "Minim proident amet velit occaecat dolore cillum ea cillum cillum laborum commodo sunt. Do ad officia do do excepteur enim laboris elit ex pariatur veniam labore. Consectetur ipsum anim laborum fugiat Lorem reprehenderit officia. Voluptate nulla est cillum ea ad mollit irure.\r\n",
+    "registered": "2020-11-24T06:47:07 -01:00",
+    "tags": [
+      "aliqua",
+      "irure",
+      "laboris",
+      "ullamco",
+      "eiusmod"
+    ]
+  },
+  {
+    "index": 19,
+    "product": "Browning",
+    "hasStock": false,
+    "isActive": false,
+    "price": 186.04,
+    "picture": "http://placehold.it/32x32",
+    "stock": 16,
+    "description": "Eu enim labore laboris duis nostrud consequat aliqua sunt nostrud. Eiusmod adipisicing laboris minim laboris. Veniam sint sit elit minim in exercitation sint officia eu dolor. Officia exercitation laborum nisi qui amet. Ullamco aliquip anim commodo officia enim quis adipisicing quis occaecat excepteur esse do laborum occaecat. Est minim nulla culpa pariatur sit laborum amet dolore amet dolore ullamco reprehenderit exercitation commodo. Nulla nostrud exercitation et eiusmod amet eiusmod labore.\r\n",
+    "registered": "2019-08-21T09:55:37 -02:00",
+    "tags": [
+      "nisi",
+      "quis",
+      "eiusmod",
+      "officia",
+      "occaecat"
+    ]
+  },
+  {
+    "index": 20,
+    "product": "Adela",
+    "hasStock": false,
+    "isActive": true,
+    "price": 60.79,
+    "picture": "http://placehold.it/32x32",
+    "stock": 3,
+    "description": "Consectetur dolore anim do nisi do tempor consequat ipsum culpa et duis tempor. Laborum enim ea aute exercitation reprehenderit labore anim ad ea eu ipsum anim. Id proident cupidatat nostrud aliqua ea commodo occaecat nostrud. Cupidatat sunt ut incididunt quis. Tempor tempor irure cupidatat proident. Tempor id sunt deserunt pariatur cupidatat cillum amet duis.\r\n",
+    "registered": "2021-04-13T08:55:40 -02:00",
+    "tags": [
+      "Lorem",
+      "tempor",
+      "cillum",
+      "voluptate",
+      "magna"
+    ]
+  },
+  {
+    "index": 21,
+    "product": "Stanley",
+    "hasStock": false,
+    "isActive": false,
+    "price": 143.4,
+    "picture": "http://placehold.it/32x32",
+    "stock": 1,
+    "description": "Consequat ad non id laborum aute incididunt minim magna labore Lorem irure enim. Eiusmod laborum voluptate quis irure excepteur irure aute non est. Irure eiusmod elit exercitation officia reprehenderit pariatur voluptate aliquip adipisicing magna duis Lorem occaecat. Mollit fugiat culpa aliquip amet occaecat fugiat consectetur deserunt irure reprehenderit laboris reprehenderit. Ullamco amet commodo et adipisicing magna sint adipisicing nostrud.\r\n",
+    "registered": "2018-02-16T01:16:53 -01:00",
+    "tags": [
+      "voluptate",
+      "deserunt",
+      "laborum",
+      "anim",
+      "dolore"
+    ]
+  },
+  {
+    "index": 22,
+    "product": "Rachel",
+    "hasStock": true,
+    "isActive": true,
+    "price": 196.41,
+    "picture": "bici4.jpg",
+    "stock": 26,
+    "description": "Non eiusmod reprehenderit dolore laborum et occaecat aute fugiat esse nostrud sit laboris reprehenderit. Id officia commodo sint ullamco fugiat exercitation labore aliqua et. Cillum proident voluptate elit reprehenderit ea. Non eiusmod sint ipsum consectetur sint consequat aute ex tempor non ad laboris.\r\n",
+    "registered": "2021-04-05T02:41:09 -02:00",
+    "tags": [
+      "aliqua",
+      "occaecat",
+      "occaecat",
+      "enim",
+      "eiusmod"
+    ]
+  },
+  {
+    "index": 23,
+    "product": "Howe",
+    "hasStock": true,
+    "isActive": true,
+    "price": 180.49,
+    "picture": "bici5.jpg",
+    "stock": 16,
+    "description": "Reprehenderit proident adipisicing aliquip labore nisi. Nulla sunt tempor est consectetur. Do adipisicing consectetur proident non. Elit ex do commodo tempor proident Lorem incididunt aliquip aliquip veniam mollit. Quis voluptate pariatur aliquip ad culpa aliqua consequat labore sit ut ipsum commodo sit proident. Id id eiusmod mollit duis quis cillum incididunt ullamco quis dolor do do.\r\n",
+    "registered": "2020-09-10T03:53:06 -02:00",
+    "tags": [
+      "enim",
+      "proident",
+      "fugiat",
+      "qui",
+      "pariatur"
+    ]
+  },
+  {
+    "index": 24,
+    "product": "Rebecca",
+    "hasStock": true,
+    "isActive": true,
+    "price": 44.15,
+    "picture": "bici6.jpg",
+    "stock": 19,
+    "description": "Et adipisicing officia adipisicing in mollit id magna. Ex dolore anim consectetur qui ad fugiat pariatur laborum voluptate nulla excepteur aliquip amet et. Consectetur mollit minim id laboris exercitation consequat ipsum. Eiusmod nulla nulla cupidatat nostrud cillum ut nulla. Incididunt velit anim reprehenderit laborum.\r\n",
+    "registered": "2021-10-07T01:43:27 -02:00",
+    "tags": [
+      "nisi",
+      "elit",
+      "sint",
+      "velit",
+      "sint"
+    ]
+  },
+  {
+    "index": 25,
+    "product": "Gibson",
+    "hasStock": true,
+    "isActive": true,
+    "price": 237.7,
+    "picture": "bici7.jpg",
+    "stock": 3,
+    "description": "Ad tempor minim eiusmod irure aliquip labore magna mollit veniam reprehenderit in aliquip. Aliqua adipisicing esse consectetur irure incididunt occaecat ad irure. Sit cupidatat magna eiusmod et fugiat eiusmod eu ut nisi esse amet. Esse amet ad sunt laborum laboris incididunt sint irure non sit tempor ullamco laborum exercitation. Anim pariatur do ullamco consectetur nisi veniam. Qui occaecat deserunt occaecat tempor fugiat enim ut esse. Laboris culpa pariatur esse pariatur amet nisi velit cillum.\r\n",
+    "registered": "2015-04-04T09:25:19 -02:00",
+    "tags": [
+      "ea",
+      "fugiat",
+      "in",
+      "aute",
+      "sint"
+    ]
+  },
+  {
+    "index": 26,
+    "product": "Bowers",
+    "hasStock": false,
+    "isActive": true,
+    "price": 126.24,
+    "picture": "http://placehold.it/32x32",
+    "stock": 18,
+    "description": "Qui mollit aliqua id occaecat ex mollit. Labore pariatur aliqua excepteur aliquip ipsum deserunt eu esse. Nisi qui excepteur exercitation in enim cillum irure officia duis pariatur amet. Deserunt ea adipisicing ea proident cillum et est est id velit minim voluptate.\r\n",
+    "registered": "2020-05-05T08:07:15 -02:00",
+    "tags": [
+      "aliquip",
+      "proident",
+      "tempor",
+      "ex",
+      "aliquip"
+    ]
+  },
+  {
+    "index": 27,
+    "product": "Washington",
+    "hasStock": true,
+    "isActive": true,
+    "price": 34.14,
+    "picture": "bici8.jpg",
+    "stock": 29,
+    "description": "Cillum cillum quis eu ad laborum do excepteur est enim dolor officia officia. Sunt do exercitation qui nulla sint quis ullamco Lorem non incididunt ullamco. Dolor do velit fugiat deserunt qui velit dolor cupidatat. Fugiat pariatur sunt nulla id nulla pariatur in minim do. Cupidatat esse sit nulla ut commodo consectetur magna ex ex voluptate amet consectetur sit. Veniam culpa incididunt non magna aliquip mollit consectetur officia tempor ipsum deserunt mollit reprehenderit sit. Sint id exercitation magna dolore incididunt eiusmod consequat id esse.\r\n",
+    "registered": "2014-04-25T05:12:14 -02:00",
+    "tags": [
+      "cupidatat",
+      "officia",
+      "occaecat",
+      "irure",
+      "laborum"
+    ]
+  },
+  {
+    "index": 28,
+    "product": "Donna",
+    "hasStock": false,
+    "isActive": false,
+    "price": 237.25,
+    "picture": "http://placehold.it/32x32",
+    "stock": 25,
+    "description": "Sint dolor eu velit fugiat. Elit nulla velit fugiat incididunt nulla nostrud excepteur dolor cillum quis ea cupidatat. Laboris anim sint reprehenderit ad ad qui. Adipisicing ea aliquip excepteur nulla et incididunt minim pariatur pariatur anim dolore ea sunt.\r\n",
+    "registered": "2021-10-25T12:13:26 -02:00",
+    "tags": [
+      "eiusmod",
+      "consequat",
+      "reprehenderit",
+      "aute",
+      "deserunt"
+    ]
+  },
+  {
+    "index": 29,
+    "product": "Ladonna",
+    "hasStock": true,
+    "isActive": true,
+    "price": 242.36,
+    "picture": "bici9.jpg",
+    "stock": 26,
+    "description": "Eu sunt commodo amet tempor cillum et aliqua deserunt dolore mollit dolore ex commodo ex. Nostrud aute excepteur commodo aliquip exercitation amet Lorem est. Aute fugiat aute ullamco ipsum labore incididunt in aliqua sint voluptate consectetur duis labore minim. Dolore adipisicing veniam qui pariatur adipisicing aute occaecat ea. Anim adipisicing ipsum dolore id officia ut sunt magna reprehenderit sint proident fugiat eu.\r\n",
+    "registered": "2014-05-07T01:11:14 -02:00",
+    "tags": [
+      "mollit",
+      "nulla",
+      "commodo",
+      "ex",
+      "ad"
+    ]
+  },
+  {
+    "index": 30,
+    "product": "Lindsey",
+    "hasStock": true,
+    "isActive": false,
+    "price": 293.69,
+    "picture": "http://placehold.it/32x32",
+    "stock": 24,
+    "description": "Sit et tempor esse do occaecat sunt ex velit officia occaecat amet mollit. Nisi nulla eu occaecat officia do est magna fugiat consequat culpa laboris enim tempor. Nisi culpa ea dolor officia adipisicing do veniam enim adipisicing occaecat laboris adipisicing quis. Nostrud pariatur exercitation tempor et officia est sit et ex ad duis. Labore occaecat ex duis eu consequat aliqua occaecat nisi adipisicing magna anim. Consectetur consequat est laboris cillum adipisicing proident amet.\r\n",
+    "registered": "2014-03-14T09:04:12 -01:00",
+    "tags": [
+      "anim",
+      "eiusmod",
+      "aute",
+      "labore",
+      "consequat"
+    ]
+  }
+]

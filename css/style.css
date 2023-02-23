@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 40px;
+    height: 150px;
+    
+}
+
+.div_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 31, 30);
+    padding: 35px 0;
+}
+
+footer {
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 31, 30);
+}
+
+small {
+    font-family: 'Josefin Sans';
+    color:  rgb(145, 35, 35);
+    font-size: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Josefin Sans';
+    color:  rgb(145, 35, 35);
+}
+
+.content {
+    width: 100%;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+.ul {
+    display: inline-block;
+    list-style: none;  
+}
+
+.li {
+    border: 2px solid rgb(156, 49, 43);
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(44, 39, 38);
+    margin: 15px 30px ;
+}
+
+.name {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(169, 3, 3);
+}
+
+.div_pic {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    padding: 15px 0;
+    width: 95%;
+    height: 34vh; 
+}
+
+.price {
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+.stock {
+    font-size: 18px;
+    padding-bottom: 10px; 
+    padding: 5px 10px 15px 10px;
+}
+
+.tags {
+    font-size: 18px;
+    padding: 5px 55px; 
+}
+
+#tags {
+    font-size: 18px;
+    padding: 10px 10px; 
+}
+
+.details {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px 10px;
+    background-color: rgb(218, 183, 179);
+}
+
+.nav {
+    background-color: rgb(57, 53, 48);
+}
+
+.ul_nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 15px 0;
+    list-style: none;
+    background-color: rgb(90, 88, 85);
+}
+
+.ul_nav li {
+    margin: 0 5px;
+}
+
+button {
+    padding: 7.5px 10px;
+    border-radius: 15px;
+    background-color: rgb(159, 45, 41);
+    color: aliceblue;
+    border: 1px solid ;
+}
+
+button:hover {
+    border: 1px solid rgb(190, 58, 58);
+}
+
+main .div_form {
+    display: flex;
+    justify-content: center; 
+    padding: 95px;
+} 
+
+#form {
+    border: 2px solid rgb(42, 41, 40);
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 300px;
+    display: block;
+    background-color: rgb(66, 18, 7);
+}
+
+h2 {
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(239, 246, 246);
+}
+
+#form div {
+    margin: 15px 0;
+}
+
+input {
+    display: block;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 295px;
+    border: 1px solid rgb(202, 131, 131);
+}
+
+label {
+    color: rgb(250, 252, 252);
+}
+
+.div_button input {
+    background-color: rgb(37, 35, 35);
+    border: 1px solid rgb(202, 131, 131);
+    color: rgb(235, 243, 243);
+}
+
+.div_button input:hover {
+    color: aliceblue;
+    border: 1px solid rgb(253, 252, 252);
+}
+
+.div_error p {
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nickname_menu {
+    color: aliceblue;
+}
+
+small {
+    color: aliceblue;
+}
+
+.div_button {
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+
+.buy_button {
+    border: 1px solid rgb(145, 35, 35);
+    border-radius: 7.5px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.buy_button:hover {
+    background-color: black;
+    color: white;
+}

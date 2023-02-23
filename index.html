@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- <script src="https://unpkg.com/vue-router@3/dist/vue-router.js"></script> -->
+    <title>UD7ACT2</title>
+</head>
+<body>
+    <div id="app">
+        <header-component>
+            <login></login>
+        </header-component>
+        <main>
+            <div v-if="show_content" class="content">
+                <product v-for="item in items" v-bind:item="item" v-bind:key="item.index"></product>
+            </div>
+        </main>
+        <!-- <router-link to="/">Home</router-link>
+        <router-link to="/register"><register></register></router-link>
+        <router-link to="/login"><login></login></router-link> -->
+        
+
+        <!-- <router-view></router-view> -->
+        <footer>
+            <small>&copy; Copyright 2023, BIKES MENORCA</small>
+        </footer>
+    </div>
+    <script type="module">
+        
+        import json from './json.json' assert {type:"json"};
+        import Product from '/components/Product.js';
+        import HeaderComponent from '/components/HeaderComponent.js';
+        import Login from '/views/Login.js';
+        import Register from '/views/Register.js';
+        // import Index from '/js/Index.js';
+ //methods component
+//   this.$emit('click', '')
+        const { createApp } = Vue;
+
+        var app = createApp({
+            
+            data() {
+                
+                return {
+                    nickNameMenu: ' ',
+                    nickname_li: false,
+                    show_form: false,
+                    show_content: true,
+                    show_formLogin: false,
+                    button_logout: false,
+                    button_login: true,
+                    items: json,
+                    json:[ { picture: 'picture' },{ product: 'product'}, { price: 'price' }, { isActive: 'isActive' }, { hasStock: 'hasStock' }, { stock:'stock' }, { tags: 'tags' } ],
+                    form : {
+                        email: '',
+                        nickName: '',
+                        password: '',
+                        passwordRepeat: '',
+                        checked: false,
+                    },
+                    list: [],            
+                    errors: [],  
+                }
+            },
+            components: {
+                Product,
+                HeaderComponent,
+                Login,
+                Register,
+            },
+            computed: {
+                htmlText() {
+                    return `${this.nickNameMenu}`;
+                }
+            },
+            methods: {
+                showForm: function() {
+                    this.show_form = !this.show_form;
+                    this.show_content = !this.show_content;
+                },
+                sendForm: function () {    
+                                      
+                    if (this.form.email && this.form.nickName && this.form.password && this.form.passwordRepeat) {
+                        console.log(this.form.email);
+                        console.log(this.form.nickName);
+                        console.log(this.form.password);
+                        console.log(this.form.passwordRepeat);
+                        console.log(this.form.checked);
+
+                        this.list.push({
+                            email: this.form.email,
+                            nickName: this.form.nickName,
+                            password: this.form.password,
+                            passwordRepeat: this.form.passwordRepeat,
+                            checked: this.form.checked,
+                        });
+
+                        console.log(this.list);
+                        let users = [];
+                        let user = {
+                            email: this.form.email,
+                            nickName: this.form.nickName,
+                            password: this.form.password,
+                            passwordRepeat: this.form.passwordRepeat
+                        };
+                        users.push(user);
+                        localStorage.setItem( user.email, JSON.stringify(users));      
+                        console.log(users);       
+                    } else {
+                        this.errors = [];      
+                        if (!this.form.email || !this.form.nickName || !this.form.password || !this.form.passwordRepeat) {
+                            this.errors.push("All fields are required");
+                        }         
+                    }
+                    this.errors.pop();
+                    var reg =  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+                    var reg_email = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+
+                    if(!this.form.password.match(reg)) {
+                        this.errors.push("Wrong password format");
+                    } else if(this.form.password != this.form.passwordRepeat){
+                        this.errors.push("Passwords are not equal");
+                    } else if(!this.form.email.match(reg_email)) { 
+                        this.errors.push("Wrong email format");
+                    }else {
+                        this.show_content = !this.show_content;
+                        this.show_form = !this.show_form;
+                        this.nickNameMenu = this.form.nickName;
+                        this.nickname_li = !this.nickname_li;
+                        this.button_logout = !this.button_logout;
+                        this.button_login = !this.button_login;
+                        this.clearFormInputRegister();
+                    }
+                },
+                showFormLogin: function() {
+                    this.show_formLogin = !this.show_formLogin;
+                    this.show_content = !this.show_content;
+                },
+                checkLogin: function() {
+                    var emailToCheck = '';
+                    var passwordToCheck = '';
+                    let customer = [];
+                    if (this.form.email && this.form.password) {
+                        console.log(this.form.email);
+                        emailToCheck = this.form.email;
+                        console.log(emailToCheck);
+                        console.log(this.form.password);
+                        passwordToCheck = this.form.password;
+                        console.log(this.form.checked);
+
+                        this.errors.pop();
+                        let customer = [];
+                        let nicknameTemporal;
+                        customer = JSON.parse(localStorage.getItem(this.form.email));
+                        if(!customer){
+                            this.errors.push("This account does not exist");
+                            return false;
+                        }
+                        console.log(customer);
+                        if(passwordToCheck == customer[0].password) {
+                            this.show_content = !this.show_content;
+                            nicknameTemporal = customer[0].nickName;
+                            console.log(nicknameTemporal);
+                            this.nickNameMenu = nicknameTemporal;
+                            this.nickname_li = !this.nickname_li;
+                            this.show_formLogin = !this.show_formLogin;
+                            this.button_logout = !this.button_logout;
+                            this.button_login = !this.button_login;
+                            this.clearFormInputLogin();
+                        } else {
+                            this.errors = [];      
+                            if (!this.form.email || !this.form.password ) {
+                                this.errors.push("All fields are required");
+                            }  else {
+                                this.errors.push("Wrong password");
+                                
+                            }
+                        };
+                    }
+                },
+                logout: function() {
+                    this.button_logout = !this.button_logout;
+                    this.button_login = !this.button_login;
+                    this.nickname_li = !this.nickname_li;
+                    this.show_content = this.show_content;
+                },
+                clearFormInputRegister: function() {
+                    this.form.email = '',
+                    this.form.nickName = '',
+                    this.form.password = '',
+                    this.form.passwordRepeat = '',
+                    this.form.checked= false
+                },
+                clearFormInputLogin: function() {
+                    this.form.password = '',
+                    this.form.checked= false
+                },
+            },   
+        }).mount("#app");   
+    </script>
+        <!-- <script src="/js/index.js"></script>
+        <script src="/js/router.js"></script> -->
+</body>
+</html>
